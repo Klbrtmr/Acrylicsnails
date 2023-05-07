@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Acrylicsnails</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Sign up</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">Acrylicsnails</string>
+    <string name="item_placeholder">Description</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="view">View</string>
+    <string name="logout">Logout</string>
+    <string name="delete">Delete</string>
+    <string name="please_choose_time">Válassz időpontot!</string>
+    <string name="available">Available</string>
+    <string name="select">Select</string>
+    <string name="foglal_s">Foglalás</string>
+    <string name="vissza">Vissza</string>
+    <string name="foglalt_id_pontok">Foglalt Időpontok</string>
+    <string name="t_rl_s">Törlés</string>
+    <string name="nailphoto">Nailphoto</string>
+    <string name="appointments">Appointments</string>
+
+</resources>

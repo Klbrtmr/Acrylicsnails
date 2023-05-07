@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895697367165",
+    "project_id": "androiddate-61448",
+    "storage_bucket": "androiddate-61448.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895697367165:android:09391a43edecefaa390114",
+        "android_client_info": {
+          "package_name": "com.example.acrylicsnails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895697367165-mkr2jemojs3hsjgua6mrlb2o6e619g26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC25tQui-kg62oV6xxF_SWFqskUM_OubL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895697367165-mkr2jemojs3hsjgua6mrlb2o6e619g26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingActivity"
+    android:background="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".BookingActivity">
+
+            <TextView
+                android:id="@+id/type_select_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/please_choose_time"
+                android:gravity="center_horizontal"
+                tools:ignore="MissingConstraints"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/foglalasButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/foglal_s" />
+    <Button
+            android:id="@+id/restoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="Visszaállítás" />
+
+    </LinearLayout>
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/vissza"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+
+
+
+<!--    <Spinner-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/type_select_text"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/nailstype_spinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/radioGroup"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/nailstype_spinner"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/_9_00_10_00"/>-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/_10_00_11_00"/>-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/_11_00_12_00"/>-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="12:00-13:00"/>-->
+<!--    </RadioGroup>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/selectButton"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/radioGroup"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:text="@string/select"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/cancelButton"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/selectButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:text="@string/cancel"-->
+<!--        android:visibility="invisible"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/listView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    </ListView>-->
+
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_time_slot"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:layout_weight="1"-->
+<!--        app:cardCornerRadius="8dp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/nailstype_spinner"-->
+<!--        >-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/nailstype_spinner"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="16sp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/time_slot"-->
+<!--                android:text="9:00-10:00"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/time_slot_desc"-->
+<!--                android:text="@string/available"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                />-->
+
+
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
